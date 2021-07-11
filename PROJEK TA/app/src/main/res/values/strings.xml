@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TA-PROJEK-ERICK</string>
+    <string name="title_activity_menu_utama">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_kelolakamar">Kelola Kamar</string>
+    <string name="title_reservkamar">Reservasi Kamar</string>
+    <string name="title_activity_lihatdatakamar">lihatdatakamar</string>
+
+
+</resources>

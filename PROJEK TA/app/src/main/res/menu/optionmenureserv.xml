@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ketersediaankamar"
+        android:title="Ketersediaan Kamar">
+    </item>
+    <item
+        android:id="@+id/datareservcekin"
+        android:title="Data Cekin Reservasi">
+    </item>
+    <item
+        android:id="@+id/datareservcekout"
+        android:title="Data Cekout Reservasi">
+    </item>
+    <item
+        android:id="@+id/datasemuareservasi"
+        android:title="Data Semua Reservasi">
+    </item>
+</menu>

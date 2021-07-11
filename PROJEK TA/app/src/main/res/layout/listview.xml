@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/EdItemNoKamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorHint"
+        android:textSize="10pt"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/Editemtipekamar"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorHint"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="8pt"/>
+</LinearLayout>

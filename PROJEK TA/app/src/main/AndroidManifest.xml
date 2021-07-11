@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.erick.ta_projek_erick">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hotel"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.erick.ta_projek_erick.MainActivity"
+            android:fitsSystemWindows="true"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.erick.ta_projek_erick.login" />
+        <activity
+            android:name="com.example.erick.ta_projek_erick.menu_utama"
+            android:fitsSystemWindows="true"
+            android:label="@string/title_activity_menu_utama"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.erick.ta_projek_erick.homefragment"
+            android:fitsSystemWindows="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.erick.ta_projek_erick.kelolakamar"
+            android:fitsSystemWindows="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.erick.ta_projek_erick.reservasi_kamar"
+            android:fitsSystemWindows="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".detaildata_kamar" />
+        <activity android:name="com.example.erick.ta_projek_erick.lihatdatareservasi" />
+        <activity android:name=".fm_lihatdatakamar" />
+        <activity android:name="com.example.erick.ta_projek_erick.detail_kamar" />
+        <activity
+            android:name="com.example.erick.ta_projek_erick.lihatdatakamar"
+            android:label="@string/title_activity_lihatdatakamar"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.erick.ta_projek_erick.updatedatakamar" />
+        <activity android:name="com.example.erick.ta_projek_erick.detailreservasi" />
+        <activity android:name="com.example.erick.ta_projek_erick.DetailTagihan" />
+        <activity android:name="com.example.erick.ta_projek_erick.KmrTidakTersedia" />
+        <activity android:name="com.example.erick.ta_projek_erick.Ketersediaankmr" />
+        <activity android:name="com.example.erick.ta_projek_erick.DataCekout" />
+        <activity android:name="com.example.erick.ta_projek_erick.updatereservasi" />
+        <activity android:name="com.example.erick.ta_projek_erick.konfirmasitagihan" />
+        <activity android:name="com.example.erick.ta_projek_erick.KamarTerisi" />
+        <activity android:name="com.example.erick.ta_projek_erick.DataSemuakamar" />
+        <activity android:name="com.example.erick.ta_projek_erick.DataSemuaReservasi"></activity>
+    </application>
+
+</manifest>
